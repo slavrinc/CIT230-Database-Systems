@@ -1,6 +1,3 @@
-/*A new patient sent in registration documents prior to their appointment date before the  
-database was launched. To test the system, the new patient has been added using the following:*/  
-
 USE Lavrinc_HealthcareDB
 GO
 
