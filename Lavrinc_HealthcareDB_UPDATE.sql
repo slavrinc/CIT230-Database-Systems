@@ -1,0 +1,6 @@
+USE Lavrinc_HealthcareDB
+GO
+
+UPDATE	PROC_INFO
+		SET ICD10_Code = 'HZ32ZZZ'
+		WHERE ICD10_Code = 'HZ30ZZZ' OR ICD10_Code = 'HZ31ZZZ';
